@@ -1,0 +1,59 @@
+#default{
+    color: grey;
+}
+
+#nameBlock{
+    width: 280px;
+    height: 48px;
+    float:left;
+}
+
+#movieList{
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+#rateBlock{
+    width: 250px;
+    height: 48px;
+    float:left;
+}
+
+#rateList{
+    border: 1px solid black;
+    width: 230px;
+}
+
+#genreBlock{
+    width: 150px;
+    height: 48px;
+    float:left;
+}
+
+#genreList{
+    border: 1px solid black;
+    width: 120px;
+}
+
+.vo
+{
+    display: block;
+    width: 200px;
+    height: 22px;
+    line-height: 22px;
+    padding: 4px 6px;
+    font-size: 10px;
+    color: #000;
+    margin-bottom: 13px;
+    clear:both;
+}
+.vo .genre {
+    float:right;
+    color:grey;
+}
+.vo .name {
+    float:left;
+    font-weight:bold;
+}
